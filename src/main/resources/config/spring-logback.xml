@@ -83,7 +83,7 @@
     <logger name="com.baomidou.mybatisplus.extension" level="WARN"/>
 
     <!-- 表示 >=WARN 级别的日志的输出方式 -->
-    <root level="WARN">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/> <!-- 控制台输出 -->
         <appender-ref ref="FILE"/> <!-- 文件输出 -->
     </root>

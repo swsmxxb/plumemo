@@ -7,9 +7,12 @@ spring:
     active: dev
   datasource:
     name: plumemo
-    url:  ${MYSQL_DATABASE:jdbc:mysql://127.0.0.1:3306/plumemo?useSSL=false&characterEncoding=utf8}
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:root}
+#    url:  ${MYSQL_DATABASE:jdbc:mysql://127.0.0.1:3306/plumemo?useSSL=false&characterEncoding=utf8}
+    url: jdbc:mysql://127.0.0.1:3306/hello_blog?useSSL=false&characterEncoding=utf8
+    username: root
+    password: 123qwe!@#
+#    username: ${MYSQL_USERNAME:root}
+#    password: ${MYSQL_PASSWORD:root}
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
